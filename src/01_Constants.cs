@@ -13,7 +13,7 @@
  *//////////////////////////
 
 const string VERSION = "1.3.1";
-const string DATAREV = "15";
+const string DATAREV = "14";
 
 const String pamTag = "[PAM]";
 const String controllerTag = "[PAM-Controller]";

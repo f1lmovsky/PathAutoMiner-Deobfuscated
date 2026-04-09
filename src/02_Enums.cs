@@ -9,7 +9,7 @@ public enum JobState       { NoJob, Paused, Active, Done, Changed, MoveHome, Mov
 public enum BatteryState   { None, Charging, Idle, Discharging }
 public enum MenuPage       { Main, Recording, JobSetup, JobRunning, StatusOverview, BehaviorSettings,
                              AdvancedSettings, InfoPage, InfoPage2, HelpPage, ShipList, ShipInventory,
-                             SendCommand, ShuttlePage1, ShuttlePage2, ShuttleBehavior, ShuttleBehavior2 }
+                             SendCommand, SendCommandAll, ShuttlePage1, ShuttlePage2, ShuttleBehavior }
 public enum StatusMsg      { Running, ConnectorNotReady, ShipModified, Interrupted, Shuttle }
 public enum StartPosition  { TopLeft, Center }
 public enum DamageBehavior { ReturnHome, FlyToJob, Stop, Ignore }

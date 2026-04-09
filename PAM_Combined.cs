@@ -14,7 +14,7 @@
  *//////////////////////////
 
 const string VERSION = "1.3.1";
-const string DATAREV = "15";
+const string DATAREV = "14";
 
 const String pamTag = "[PAM]";
 const String controllerTag = "[PAM-Controller]";
@@ -56,7 +56,7 @@ public enum JobState       { NoJob, Paused, Active, Done, Changed, MoveHome, Mov
 public enum BatteryState   { None, Charging, Idle, Discharging }
 public enum MenuPage       { Main, Recording, JobSetup, JobRunning, StatusOverview, BehaviorSettings,
                              AdvancedSettings, InfoPage, InfoPage2, HelpPage, ShipList, ShipInventory,
-                             SendCommand, ShuttlePage1, ShuttlePage2, ShuttleBehavior, ShuttleBehavior2 }
+                             SendCommand, SendCommandAll, ShuttlePage1, ShuttlePage2, ShuttleBehavior }
 public enum StatusMsg      { Running, ConnectorNotReady, ShipModified, Interrupted, Shuttle }
 public enum StartPosition  { TopLeft, Center }
 public enum DamageBehavior { ReturnHome, FlyToJob, Stop, Ignore }
